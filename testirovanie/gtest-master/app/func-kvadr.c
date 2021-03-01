@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<math.h>
-int main()
+int korni(int a,int b,int c)
 {
 
-    int a,b,c, discr;
+    int discr;
     double x[2];
-    printf("Введите a, b, c:");
-    scanf("%d %d %d", &a,&b,&c);
+    
 
     discr = b*b - 4*a*c;
     
@@ -14,7 +13,7 @@ int main()
     x[1] = (b*(-1) + sqrt(discr))/(2*a); 
 
     
-    printf("first koren - %0.3lf, second koren - %0.3lf", x[0], x[1]);
+    printf("first koren - %0.1lf, second koren - %0.1lf", x[0], x[1]);
     
     return 0;
 }

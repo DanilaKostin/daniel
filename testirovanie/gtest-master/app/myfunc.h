@@ -5,4 +5,5 @@ int myfunc(int b);
 
 int fibonachi(int num);
 
+int korni(int a, int b, int c);
 #endif // MYFUNC_H
